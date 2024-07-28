@@ -1,0 +1,2 @@
+## Portfolio Optimization
+This is a personal project focusing on factor models and mean-variance optimization. Various models are found in the ![code](code) folder and can be implmented using the optimmization functions. 
