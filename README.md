@@ -2,7 +2,9 @@
 - This codebase focuses on mean-variance optimization. 
 - We attempt to minimize risk (variance) subject to a constraint on the expected return. Conversely, we can maximize expected returns subject to a constraint on the variance. 
 - Combining the above problems, we get the Markowitz Mean Variance Optimization problem:
+
 $$ \text{minimize} \ -\mathbf{w}^T \Sigma \mathbf{w} + \lambda \mu^T \mathbf{w}$$
+
 Subject to the following constraints:
   1. $\mu^T \mathbf{w} = \mu_t$
   2. $\sum_{i=1}^{N} w_i = 1$
